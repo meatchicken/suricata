@@ -60,7 +60,7 @@ typedef struct TimeMachineHeap_ {
     TimeMachineMemPools                 used_mem_pools;
     TimeMachineMemPools                 unused_mem_pools;
     TimeMachinePackets                  unused_packets;
-    
+
     TAILQ_ENTRY(TimeMachineHeap_)       next;
 } TimeMachineHeap;
 
